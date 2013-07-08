@@ -13,15 +13,15 @@ Browser's program is refer to [jquery.sp-connector.js](https://github.com/dimros
 
 ## How to use
 <pre>
-var sp-socket = require('sp-socket');
-var sp = new sp-socket(listen_port, socket_name, max_socket, socket_options);
+var sp_socket = require('sp-socket');
+var sp = new sp_socket(listen_port, socket_name, max_socket, socket_options);
 </pre>
 
 * socket.io's listen port.
 
 * socket.io's name
 
-* socket_name0 ... socket_nameX
+* socket_name0 ... socket_nameX  (X = max_socket - 1)
 
 * Please refer to [socket.io](https://github.com/LearnBoost/socket.io).
   Also this program's 'log level' equal socket.io's 'log level'.
