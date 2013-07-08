@@ -1,2 +1,2 @@
-var myModule = require('./sp_socket.js');
+var myModule = require('./sp-socket.js');
 module.exports = myModule;
