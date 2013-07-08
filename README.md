@@ -2,7 +2,7 @@
 This program communicates with the serialport using the socket.io.
 It is possible to communicate with one serialport in one socket.io name.
 Therefore, use multiple socket.io in browser, it is possible to communicate with multiple serialport.
-Browser's program is refer to [jquery.sp-connector.js](https://github.com/dimros/jquery.sp_connector.js.git).
+Browser's program is refer to [jquery.sp_connector.js](https://github.com/dimros/jquery.sp_connector.js.git).
 
 ## install
 <pre>
