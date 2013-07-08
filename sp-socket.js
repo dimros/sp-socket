@@ -22,7 +22,7 @@ function checkObject(_obj){
     }
 }
 
-var sp_socket = function(listenPort, maxSocket, socketName, options){
+var sp-socket = function(listenPort, maxSocket, socketName, options){
     var listen_port = listenPort || 80;
     var max_socket = maxSocket || 5;
     var socket_name = socketName || 'serialport';
@@ -105,5 +105,4 @@ var sp_connect = function(socket, portName, options, encoding){
     });
 };
 
-module.exports = sp_socket;
-
+module.exports = sp-socket;
