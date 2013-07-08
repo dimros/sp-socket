@@ -1,6 +1,6 @@
 {
     "name": "sp-socket",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "description": "This program communicates with the serialport using the socket.io.",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
